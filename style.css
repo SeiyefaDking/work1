@@ -1,0 +1,60 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: 0px;
+
+}
+
+.header{
+	background: black;
+}
+
+.Logo{
+	min-height: 100px;
+	background: black;
+	color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 1.3rem;
+	padding-left: 5%;
+	font-family: arial;
+}
+
+span{
+	color: hotpink;
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar-ul{
+	display: flex;
+	background: black;
+	margin: auto;
+	width: 30%;
+	font-weight: bolder;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 40px;
+	font-family: arial;
+}
+
+.navbar-ul li{
+	list-style-type: none;
+}
+
+
+.navbar-ul li a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.navbar-ul li a:hover{
+   background: hotpink;
+   color: black;
+   padding: 5px 10px;
+   border-radius: 5%;
+   transition: 0.3s;
+}
